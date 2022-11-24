@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -16,37 +17,46 @@
 <body>
     <main>
         <section class="hero">
-            <div class="container">
-                <div class="overley__hero">
-                    <!-- <svg class="svg__hero" >
-                        <use href="/img/img_hero/overley.svg#icon-overley"></use>
-                    </svg> -->
-
+            <div class="overlay container_hero">
+                <div class="hero__descriptions">
+                    <h1 class="hero__title">Best shop for buying gaming products</h1>
+                    <a href="#" class="hero__link">Start shopping</a>
                 </div>
-                
-                
-                
-                <h1 class="hero__title">Best shop for buying gaming products</h1>
-                <a class="hero__link hero__link--hero" href="/index.html">Start shopping</a>
+                <div class="headset">
+                    <picture>
+                        <source srcset="/img/hero/headset_mobile.png" 
+                        media="(max-width: 767px)" 
+                        sizes="304px, 100vw"
+                        type="" />
+                        <source srcset="/img/hero/headset_table.png" 
+                        media="(max-width: 1279px)" 
+                        sizes="379px, 100vw"
+                        type="" />
+                        <source srcset="/img/hero/headset_desktop.png" 
+                        media="(min-width: 1280px)" 
+                        sizes="668px, 100wv"
+                        type="" />
+                        <img src="/img/hero/headset_desktop.png" alt="" />
+                    </picture>
+                </div>
             </div>
-            
         </section>
-        <!-- <section class="slider">
+        <section class="slider">
             <div class="container__slider">
                 <div class="slider__div">
                     <div class="slider__line">
-                    <img src="/img/img_hero/slider_1@1x.jpg" alt="">
-                    <img src="/img/img_hero/slider_2@1x.jpg" alt="">
-                    <img src="/img/img_hero/slider_3@1x.jpg" alt="">
+                    <img src="/img/hero/slider_1@1x.jpg" alt="">
+                    <img src="/img/hero/slider_2@1x.jpg" alt="">
+                    <img src="/img/hero/slider_3@1x.jpg" alt="">
                     </div>
                 </div>
                 <div class="button__slider">
-                <button class="button__slide--1 current--slider" type="button"></button>
+                <button class="button__slide--1" type="button"></button>
                 <button class="button__slide--2" type="button"></button>
                 <button class="button__slide--3" type="button"></button>
                 </div>
             </div>
-        </section> -->
+        </section>
     <footer>
         
     </footer>
